@@ -1,0 +1,6 @@
+government "Anuken"
+	swizzle 2
+	color 0.8 0.4 0.4
+	"crew attack" 5
+	"crew defense" 3.8
+	"player reputation" 1000

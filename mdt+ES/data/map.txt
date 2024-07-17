@@ -1,0 +1,98 @@
+
+system Mindustry
+	pos 23 -15
+	government Anuken
+	habitable 486.68
+	asteroids "small rock" 1 9.6824
+	asteroids "medium rock" 2 5.46
+	asteroids "large rock" 5 7.9352
+	asteroids "small metal" 9 9.3184
+	asteroids "medium metal" 3 9.9008
+	asteroids "large metal" 21 4.1496
+        trade Clothing 200
+	trade Electronics 200
+	trade Equipment 200
+	trade Food 200
+	trade "Heavy Metals" 200
+	trade Industrial 200
+	trade "Luxury Goods" 200
+	trade Medical 200
+	trade Metal 200
+	trade Plastic 200
+	object
+		sprite star/sun
+		period 10
+	object Erekir
+		sprite planet/erekir
+		distance 600
+		period 145.598
+		offset 182.196
+		object notva
+			sprite planet/notva
+			distance 200
+			period 26.9467
+			offset 196.975
+		object gier
+			sprite planet/gier
+			distance 350
+			period 84.5269
+	object Serpulo
+		sprite planet/serpulo
+		distance 1200
+		period 579.405
+		offset 277.594
+		object verlius
+			sprite planet/verlius
+			distance 300
+			period 27.2737
+	object Tantros
+		sprite planet/tantros
+		distance 2000
+		period 1469.71
+			object
+				sprite planet/notva
+				distance 400
+				period 17.4645
+				offset 311.698
+
+planet Erekir
+	attributes planet
+	landscape land/01
+	description introduction
+	spaceport spaceport
+	"required reputation" 0
+	bribe 0.9
+	security 0.3
+
+planet Serpulo
+	attributes planet
+	landscape land/02
+	description intro
+	spaceport spaceport
+	"required reputation" 0
+	bribe 0.95
+	security 0.2
+
+planet Tantros
+	landscape land/03
+	description `A planet`
+	spaceport s.p.
+	"required reputation" 0
+	bribe 0.9
+	security 0.2
+
+planet gier
+	landscape land/gier
+
+planet notva
+	landscape land/notva
+
+planet verlius
+	attributes moon
+	landscape land/verlius
+	description `Debris of serpulo`
+	spaceport s.p.
+	"required reputation" 0
+	bribe 0.5
+	security 0.3
+
